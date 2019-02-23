@@ -1,0 +1,40 @@
+#include <iostream>
+//==================================================================================
+// Title: Simple Swap
+// Author: Dion Jackson 2 23 2019
+// Description: Swapping Values held in A to B
+// For More Information Please Visit Our Website
+// Learn Play Discover Computer Science
+// www.DarkCybernetics.com
+// Disclaimer: User Beware, Not responsible for losses or damages. 
+//____________________________________________________________________________________
+using namespace std;
+
+/*
+Algorithm for transfering a numeric Value held in A to B by
+swapping using a Temp coded in the C++ programming language.
+Description: Operations in Simple Swap occur in constant time.
+
+*/
+
+int main(){
+//+++++++++++++++ Values ++++++++++++++++++++++++++++++	
+int a = 0;
+int b = 0;
+int c = 0;
+
+cout <<" a " <<a <<" b "<<b <<" c "<<c <<endl;
+//+++++++++++++++++Input+++++++++++++++++++++++++++++
+cout<< " Choose a numeric value for A "<< endl;
+cin>> a;
+cout<< " Choose a numeric value for B "<< endl;
+cin>> b;
+//++++++++++++++++Algorithm++++++++++++++++++++++++++
+ c = b;
+ b = a;
+ a = c;
+//=====================================================
+cout <<" a " <<a <<" b "<<b <<" c "<<c <<endl;
+return 0;
+
+}
